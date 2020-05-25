@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar-expand-lg {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    font-family: auto;
+
+}
+
+.navbar {
+    background-color: rgb(35, 4, 109);
+    margin-bottom: 0px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.library {
+    font-size: 30px;
+    display: flexbox;
+    height: 250px;
+    background-color: rgb(11, 2, 49);
+    color: white;
+}
+
+.rect {
+    margin-left: 77.2%;
+    transform: translate(-50%, -55%);
+    border-radius: 8px;
+    height: 150px;
+    width: 500px;
+    background-color: rgb(35, 4, 109);
+}
+
+.container {
+    margin: -50px 0px 0px 150px;
+    padding-top: 40px;
+    height: 500px;
+    width: 1500px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 10%;
+    font-family: auto;
+    margin-left: 45px;
+    animation: text 6s 1;
+    position: relative;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: auto;
+    font-weight: bolder;
+    margin-bottom: 0px;
+
+}
+
+.dp {
+    margin-bottom: 10px;
+    height: 220px;
+    width: 900px;
+}
+
+.btn-primary {
+    margin-left: -10px;
+}
+
+.btn-danger {
+    margin-left: -10px;
+}
+
+.detail {
+    margin-left: 220px;
+    transform: translate(0%, 0%);
+}
+
+.detail button {
+    font-weight: bold;
+    background-color: rgb(104, 93, 93);
+    color: white;
+    margin-top: 5px;
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    margin-bottom: 8px;
+}
+
+.detail a {
+    text-decoration: none;
+    color: rgb(22, 3, 3);
+}
+
+.pic {
+    float: left;
+    transform: translate(25%, -5%);
+}
+
+.pic img {
+    border-radius: 100%;
+}
+
+#buttons {
+    margin-left: 950px;
+}
+
+
+.login {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../bll.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#create {
+    color: white;
+    text-decoration: none;
+    margin-left: 110px;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    margin-right: 200px;
+    padding: 20px;
+    margin-left: 85px;
+    font-family: auto;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+@keyframes text {
+    0% {
+        color: rgb(180, 23, 57);
+        margin-bottom: -40px;
+    }
+
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+}
+
+#pwd {
+    width: 300px;
+    color: rgb(185, 167, 167);
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+
+#dob {
+    width: 300px;
+    color: rgb(185, 167, 167);
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+
+#email {
+    width: 300px;
+    color: rgb(185, 167, 167);
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+
+#submits {
+    width: 50%;
+    display: block;
+    margin-left: 70px;
+    font-weight: 400;
+    color: black;
+    border: none;
+    background-color: rgb(216, 214, 211);
+}
+
+#submit {
+    width: 40%;
+    display: block;
+    margin-left: 60px;
+    font-weight: 400;
+    color: black;
+    border: none;
+    background-color: rgb(216, 214, 211);
+
+}
+
+.box {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 130px;
+}
+
+label {
+    color: black;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.sign {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../bii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#pawd {
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    width: 300px;
+    color: rgb(185, 167, 167);
+}
+
+#email {
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    color: rgb(185, 167, 167);
+}
+
+#lastname {
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    color: rgb(185, 167, 167);
+}
+
+#firstname {
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    color: rgb(185, 167, 167);
+}
+
+#ph {
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+
+#number {
+    width: 230px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 5px;
+    color: rgb(185, 167, 167);
+
+}
+
+#sub {
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 6px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    margin-left: 50px;
+
+}
+
+#signup {
+    margin-left: 50px;
+}
+
+.signup {
+    background: transparent;
+
+    width: 500px;
+    margin-left: 500px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+
+.button {
+    width: 30%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border: 1px solid #000;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.btn {
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+}
+
+#dates {
+    font-family: auto;
+    font-size: inherit;
+    line-height: inherit;
+    color: black;
+    width: 20%;
+    height: 27px;
+    border-radius: 30px;
+}
+
+.container-fluid {
+    height: 130vh;
+}
+
+#readmore {
+    color: rgb(4, 4, 155);
+    position: relative;
+    text-decoration: rgb(4, 4, 155);
+
+}
